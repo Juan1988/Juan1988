@@ -1,45 +1,85 @@
 @charset "utf-8";
 /* CSS Document */
 
+/* Estilos html y body */
+
 html, body{font-size:125%; font-family: 'Arapey'; margin:0; padding:0;background-color:#FFF;height:100%;}
+
+/* Columna del menú */
 
 .col{font-size:175%; background-color:#000; color:#404040; width:22%; height:100%; float:left; position:fixed;}
 
+/* estilos columna derecha index */
+
 .cols{ background-color:#FF8B17; color:#000; width:74%; height:100%; float:left; position: relative; margin-left:22%;}
+
+/* Estilos de los links */
 
 a:link{text-decoration:none; color:#FFF;}
 
 a:visited, a:active, a:focus{text-decoration:none; color:#FFF; text-transform:none;}
 
+/* Estilos elementos de lista */
+
 nav ul li{text-align:center; list-style:none; position:relative; bottom:0px; word-wrap:break-all}
+
+/* Botoneras redes sociales */
 
 #redes-sociales{text-align:right;}
 
+/* h1 (mi nombre) */
+
 #yo{font-size:130%; position:relative; bottom:0; text-align:right; word-wrap:break-all; padding-top:10%}
+
+/* Estilos globales formulario */
 
 #formulario{ background-color:#94C7D8; width:78%; height:100%; float:left; position: relative; margin-left:22%;}
 
+/* Estilos caja de formulario */
+
 #contact{width:50%;height:100%;  margin: 0 auto; padding-top:25px; color:#FFF; text-align:center; background:#c9d0de; border-radius:25px;}
+
+/* h1 del formulario */
 
 #rotulo{color:#FFF; text-align:center; padding:0px;}
 
+/* Estilos bordes redondos */
+
 input{border-radius:10px;}
+
+/* Estilos bordes redondos */
 
 textarea{border-radius:5px;}
 
+/* h1 formulario */
+
 #hform{text-align:center; color:#FFF;}
+
+/* Segnda opcion de envio copreos */
 
 #correo{color:#FFF; padding-top:25px; text-align:center;}
 
+/* Estilo columna derecha resto de aginas no index */
+
 .columna-derecha{width:75%; height:auto; background:#FFF; color:#000; float:left; margin-left:25%}
+
+/* Estilos articulos blog */
 
 .blog{width:70%; margin:0 auto; text-align:center; word-wrap:break-word;}
 
+/* Estilos contenido dentro de articulo */
+
 .articulo{width:74%; text-align:justify; height:100%; word-wrap:break-word; margin:0 auto;}
+
+/* Estilos paginacion del blog */
 
 .paginacion{text-align:center; padding-top:5px; margin:0 auto;}
 
+/* Estilos apartado sobremi columna izquierda flotante */
+
 .sobre-mi-col-1{width:40%; height:auto; float: left; margin:0 auto; padding-left:5%}
+
+/* Estilos apartado sobremi columna derecha flotante */
 
 .sobre-mi-col-2{width:35%; height:auto; float:right; border: 1px solid; text-align:center; background:#ECD9D9;}
 
@@ -47,11 +87,19 @@ textarea{border-radius:5px;}
 
 .columna-derecha-blog{float:left; width: 75%; margin-left:27%}
 
+/* Color verde columna sobre mi */
+
 .olive{color: olive;}
+
+/* Estilos centrado columnas sobre mi */
 
 .center{margin: 0 auto;}
 
+/* Estilos sobre os videos */
+
 video{margin: 0 auto;}
+
+/* A PARTIR DE AQUÍ SON MEDIAQUERYS PARA DISEÑO RESPONSIVE */
 
 @media only screen and (min-width:482px) and (max-width: 1024px){
 html, body{font-size:125%; font-family: 'Arapey'; margin:0; padding:0;background-color:#FFF;height:100% !important;}
